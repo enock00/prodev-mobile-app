@@ -32,7 +32,7 @@ export default function IndexScreen() {
 
           <TouchableOpacity
             style={styles.buttonSecondary}
-            onPress={() => router.push("/signin")}
+            onPress={() => router.push("./signin")}
           >
             <Text style={styles.buttonSecondaryText}>Sign In</Text>
           </TouchableOpacity>
