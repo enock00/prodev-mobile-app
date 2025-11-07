@@ -63,7 +63,7 @@ export default function Join() {
 
         <View style={styles.signupgroup}>
           <Text style={styles.signupTitleText}>Already have an account?</Text>
-          <TouchableOpacity onPress={() => router.push("/Sign")}>
+          <TouchableOpacity onPress={() => router.push("/signin")}>
             <Text style={styles.signupSubTitleText}> Log in</Text>
           </TouchableOpacity>
         </View>
